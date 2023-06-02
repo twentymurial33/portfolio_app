@@ -1,15 +1,13 @@
 import type { NextPage } from 'next'
 import Layout from "../components/Layout";
-import styles from '../styles/Home.module.css';
+import {MainContainer} from "./style";
 
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      
-<Layout/>
-   
-    </div>
+      <MainContainer>
+         <Layout/>
+      </MainContainer>
   )
 }
 
