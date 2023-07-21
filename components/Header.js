@@ -1,4 +1,5 @@
 import React from "react";
+import BasicList from "./List";
 import { HeaderBar } from "./styled";
 function Header() {
   return (
@@ -12,11 +13,7 @@ function Header() {
         web{" "}
       </p>
       <nav>
-        <ul>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Experiences</li>
-        </ul>
+        <BasicList />
       </nav>
     </HeaderBar>
   );
