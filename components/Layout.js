@@ -10,11 +10,8 @@ function Layout() {
     <div>
       <LayoutContainer>
         <Header />
-        <div>
-          <About />
-          <Experiences />
-        </div>
-
+        <About />
+        <Experiences />
         <Footer />
       </LayoutContainer>
     </div>
