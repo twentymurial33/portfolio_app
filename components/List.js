@@ -11,16 +11,19 @@ export default function BasicList() {
     <Box sx={{}}>
       <nav aria-label="main mailbox folders">
         <List>
+          <p style={{ color: "black", textAlign: "center" }}>
+            Software Projects
+          </p>
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon></ListItemIcon>
-              <ListItemText primary="About" />
+              <ListItemText primary="Murials Menu" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon></ListItemIcon>
-              <ListItemText primary="Experiences" />
+              <ListItemText primary="Aint Board" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>

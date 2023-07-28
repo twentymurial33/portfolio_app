@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const HeaderBar = styled.div`
   h1 {
     font-size: 3rem;
+    margin: 0;
     line-height: 1;
     letter-spacing: -0.025em;
     color: rgb(226 232 240);

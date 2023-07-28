@@ -1,5 +1,6 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 import styled from "styled-components";
 
 function Footer() {
@@ -8,13 +9,7 @@ function Footer() {
       <BottomNavigation>
         <LinkedInIcon />
         <GitHubIcon />
-        <div>
-          <p>
-            Loosely designed in Figma and coded in Visual Studio Code by yours
-            truly. Built with Next.js and Tailwind CSS, deployed with Vercel.
-            All text is set in the Inter typeface.
-          </p>
-        </div>
+        <EmailIcon />
       </BottomNavigation>
     </>
   );

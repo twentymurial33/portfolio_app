@@ -8,12 +8,11 @@ function About() {
         Back in 2018, I decided to disrupt my life and dive into learning
         programming.
         <br />I enrolled to a coding bootcamp and there my journey started
-        themes <br />
-        and tumbled head first into the rabbit hole of coding and web
-        development.
-        <br /> Fast-forward to today, and had the privilege of building software
-        for an advertising agency,
-        <br />a start-up, a student-led design studio, and a huge corporation.
+        there, I have since then continued with the journey
+        <br />I have had experience experience in developing products using
+        React.js while integrating with different tools and
+        technologies.Experienced in driving internal process improvements across
+        multiple teams and leveraging agile delivery methodologies
       </Text>
     </AboutSection>
   );

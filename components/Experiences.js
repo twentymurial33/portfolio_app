@@ -11,52 +11,41 @@ export default function Experiences() {
       <ListItem alignItems="flex-start">
         <ListItemText
           secondary={
-            <>
-              <Typography sx={{ display: "inline" }}>
-                Jan 2022 - Present: Senior Program Manager
-              </Typography>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Scelerisque viverra mauris in aliquam sem. Neque aliquam
-                vestibulum morbi blandit cursus risus at ultrices. Turpis
-                egestas maecenas pharetra convallis posuere morbi leo urna.
-              </p>
-            </>
+            <Typography sx={{ display: "inline" }}>
+              JAN 2022 - PRESENT | Senior Program Manager | Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Scelerisque viverra
+              mauris in aliquam sem. Neque aliquam vestibulum morbi blandit
+              cursus risus at ultrices. Turpis egestas maecenas pharetra
+              convallis posuere morbi leo urna.
+            </Typography>
           }
         />
         <Fab variant="extended" size="medium" color="primary" aria-label="add">
           React
         </Fab>
         <Fab variant="extended" size="medium" color="primary" aria-label="add">
-          React
+          CSS
         </Fab>
         <Box sx={{ "& > :not(style)": { m: 1 } }}></Box>
       </ListItem>
       <Divider variant="inset" style={{ backgroundColor: "white" }} />
       <ListItem alignItems="flex-start">
-        {/* <ListItemAvatar>
-          <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
-        </ListItemAvatar> */}
         <ListItemText
           secondary={
-            <>
-              <Typography
-                sx={{ display: "inline" }}
-                component="span"
-                variant="body2"
-                color="text.primary"
-              >
-                Junior Front-End Developer
-              </Typography>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Scelerisque viverra mauris in aliquam sem. Neque aliquam
-                vestibulum morbi blandit cursus risus at ultrices. Turpis
-                egestas maecenas pharetra convallis posuere morbi leo urna.
-              </p>
-            </>
+            <Typography
+              sx={{ display: "inline" }}
+              component="span"
+              variant="body2"
+              color="text.primary"
+            >
+              MARCH 2020-FEB 2022 | Junior Front-End Developer| Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Scelerisque viverra
+              mauris in aliquam sem. Neque aliquam vestibulum morbi blandit
+              cursus risus at ultrices. Turpis egestas maecenas pharetra
+              convallis posuere morbi leo urna.
+            </Typography>
           }
         />
         <Fab variant="extended" size="medium" color="primary" aria-label="add">
@@ -68,28 +57,21 @@ export default function Experiences() {
       </ListItem>
       <Divider variant="inset" style={{ backgroundColor: "white" }} />
       <ListItem alignItems="flex-start">
-        {/* <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
-        </ListItemAvatar> */}
         <ListItemText
           secondary={
-            <>
-              <Typography
-                sx={{ display: "inline" }}
-                component="span"
-                variant="body2"
-                color="text.primary"
-              >
-                Technical Program Manager
-              </Typography>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Scelerisque viverra mauris in aliquam sem. Neque aliquam
-                vestibulum morbi blandit cursus risus at ultrices. Turpis
-                egestas maecenas pharetra convallis posuere morbi leo urna.
-              </p>
-            </>
+            <Typography
+              sx={{ display: "inline" }}
+              component="span"
+              variant="body2"
+              color="text.primary"
+            >
+              FEB 2019-JULY 2020 | Technical Program Manager | Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Scelerisque viverra
+              mauris in aliquam sem. Neque aliquam vestibulum morbi blandit
+              cursus risus at ultrices. Turpis egestas maecenas pharetra
+              convallis posuere morbi leo urna.
+            </Typography>
           }
         />
         <Fab variant="extended" size="medium" color="primary" aria-label="add">

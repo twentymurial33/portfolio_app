@@ -7,10 +7,10 @@ function Header() {
       <h1>
         <a href="/home">Murial Anindo</a>
       </h1>
-      <h2>Software Developer at Amazon</h2>
+      <h2>Front End Developer</h2>
       <p>
         I build accessible, inclusive products and digital experiences for the
-        web{" "}
+        web
       </p>
       <nav>
         <BasicList />
