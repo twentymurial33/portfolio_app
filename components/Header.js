@@ -8,10 +8,10 @@ function Header() {
         <a href="/home">Murial Anindo</a>
       </h1>
       <h2>Front End Developer</h2>
-      <p>
+      {/* <p>
         I build accessible, inclusive products and digital experiences for the
         web
-      </p>
+      </p> */}
       <nav>
         <BasicList />
       </nav>

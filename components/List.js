@@ -18,18 +18,13 @@ export default function BasicList() {
             <ListItemButton>
               <ListItemIcon></ListItemIcon>
               <ListItemText primary="Murials Menu" />
+              <a href="https://github.com/twentymurial33">Send email</a>
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon></ListItemIcon>
               <ListItemText primary="Aint Board" />
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton>
-              <ListItemIcon></ListItemIcon>
-              <ListItemText primary="Projects" />
             </ListItemButton>
           </ListItem>
         </List>

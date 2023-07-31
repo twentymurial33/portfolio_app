@@ -7,6 +7,7 @@ export const HeaderBar = styled.div`
     line-height: 1;
     letter-spacing: -0.025em;
     color: rgb(226 232 240);
+    text-align: center;
   }
   h2 {
     font-size: 1.25rem;
@@ -15,16 +16,18 @@ export const HeaderBar = styled.div`
     font-weight: 500;
     letter-spacing: -0.025em;
     margin-top: 0.75rem;
+    text-align: center;
   }
 
   p {
     max-width: 20rem;
     line-height: 1.5;
-    display: block;
+    /* display: block; */
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    text-align: center;
     color: rgb(226 232 240);
   }
 `;
