@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import Layout from "../components/Layout";
-import {MainContainer} from "./style";
+// import {MainContainer} from "./style";
 
 
 const Home: NextPage = () => {
   return (
-      <MainContainer>
+      // <MainContainer>
          <Layout/>
-      </MainContainer>
+      /* </MainContainer> */
   )
 }
 
