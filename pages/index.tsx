@@ -3,12 +3,14 @@ import Layout from "../components/Layout";
 import {MainContainer} from "./style";
 
 
-const Home: NextPage = () => {
+
+export default function Home() {
   return (
-       <MainContainer>
+    <div>
+          <MainContainer>
          <Layout/>
        </MainContainer> 
-  )
+     
+    </div>
+  );
 }
-
-export default Home
