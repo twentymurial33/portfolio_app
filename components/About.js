@@ -5,14 +5,12 @@ function About() {
     <AboutSection>
       <Text>
         <h2>ABOUT</h2>
-        Back in 2018, I decided to disrupt my life and dive into learning
-        programming.
-        <br />I enrolled to a coding bootcamp and there my journey started
-        there, I have since then continued with the journey
-        <br />I have had experience experience in developing products using
-        React.js while integrating with different tools and
-        technologies.Experienced in driving internal process improvements across
-        multiple teams and leveraging agile delivery methodologies
+        A Front-end Developer with a background in Program Management.
+        <br /> I fell in love with coding after several years supporting
+        engineers build products.
+        <br /> Spent the last 2 years honing my skills by working on open source
+        and side projects using Javascript and its frameworks React and
+        Typescript.
       </Text>
     </AboutSection>
   );
@@ -20,7 +18,7 @@ function About() {
 
 const Text = styled.p`
   font-size: 20px;
-  color: white;
+  color: #a632a8;
   text-align: center;
   font-family: Quicksand;
 `;
@@ -28,5 +26,7 @@ const Text = styled.p`
 const AboutSection = styled.div`
   box-sizing: border-box;
   border: 0 solid #e5e7eb;
+  padding-bottom: 40px;
+  padding-top: 30px;
 `;
 export default About;

@@ -12,12 +12,7 @@ export default function Experiences() {
         <ListItemText
           secondary={
             <Typography sx={{ display: "inline" }}>
-              JAN 2022 - PRESENT | Senior Program Manager | Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Scelerisque viverra
-              mauris in aliquam sem. Neque aliquam vestibulum morbi blandit
-              cursus risus at ultrices. Turpis egestas maecenas pharetra
-              convallis posuere morbi leo urna.
+              JAN 2022 - PRESENT | Senior Program Manager
             </Typography>
           }
         />
@@ -29,7 +24,7 @@ export default function Experiences() {
         </Fab>
         <Box sx={{ "& > :not(style)": { m: 1 } }}></Box>
       </ListItem>
-      <Divider variant="inset" style={{ backgroundColor: "white" }} />
+
       <ListItem alignItems="flex-start">
         <ListItemText
           secondary={
@@ -39,12 +34,7 @@ export default function Experiences() {
               variant="body2"
               color="text.primary"
             >
-              MARCH 2020-FEB 2022 | Junior Front-End Developer| Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Scelerisque viverra
-              mauris in aliquam sem. Neque aliquam vestibulum morbi blandit
-              cursus risus at ultrices. Turpis egestas maecenas pharetra
-              convallis posuere morbi leo urna.
+              MARCH 2020-FEB 2022 | Junior Front-End Developer
             </Typography>
           }
         />
@@ -55,7 +45,7 @@ export default function Experiences() {
           React
         </Fab>
       </ListItem>
-      <Divider variant="inset" style={{ backgroundColor: "white" }} />
+
       <ListItem alignItems="flex-start">
         <ListItemText
           secondary={
@@ -65,12 +55,7 @@ export default function Experiences() {
               variant="body2"
               color="text.primary"
             >
-              FEB 2019-JULY 2020 | Technical Program Manager | Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Scelerisque viverra
-              mauris in aliquam sem. Neque aliquam vestibulum morbi blandit
-              cursus risus at ultrices. Turpis egestas maecenas pharetra
-              convallis posuere morbi leo urna.
+              FEB 2019-JULY 2020 | Technical Program Manager
             </Typography>
           }
         />
@@ -91,4 +76,5 @@ const List = styled.div`
 
 const Typography = styled.p`
   color: white;
+  margin-left: 600px;
 `;

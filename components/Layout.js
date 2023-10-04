@@ -12,14 +12,16 @@ function Layout() {
       <LayoutContainer>
         <Image
           src="/background.jpg"
-          alt="Image description"
-          zIndex="0"
-          width="1500"
-          height="500"
+          width={227.77}
+          height={150}
+          left={50}
+          right={50}
+          alt="Ain't Board Logo"
         />
 
         <Header />
         <About />
+        <hr></hr>
         <Experiences />
         <Footer />
       </LayoutContainer>

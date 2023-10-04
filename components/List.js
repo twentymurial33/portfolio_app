@@ -11,14 +11,12 @@ export default function BasicList() {
     <Box sx={{}}>
       <nav aria-label="main mailbox folders">
         <List>
-          <p style={{ color: "black", textAlign: "center" }}>
-            Software Projects
-          </p>
+          {/* <p style={{ color: "black", textAlign: "center" }}>Projects</p> */}
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon></ListItemIcon>
               <ListItemText primary="Murials Menu" />
-              <a href="https://github.com/twentymurial33">Send email</a>
+              <a href="https://github.com/twentymurial33"></a>
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
@@ -34,6 +32,9 @@ export default function BasicList() {
 }
 
 const Box = styled.div`
-  background-color: lightblue;
+  background-color: #7d34eb;
   width: 30%;
+  margin-left: 260px;
+  color: white;
+  text-align: center;
 `;
