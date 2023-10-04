@@ -1,5 +1,4 @@
 import ListItem from "@mui/material/ListItem";
-import Divider from "@mui/material/Divider";
 import ListItemText from "@mui/material/ListItemText";
 import styled from "styled-components";
 import Box from "@mui/material/Box";
@@ -16,11 +15,14 @@ export default function Experiences() {
             </Typography>
           }
         />
-        <Fab variant="extended" size="medium" color="primary" aria-label="add">
+        <Fab
+          variant="extended"
+          size="medium"
+          color="primary"
+          aria-label="add"
+          style={{ marginRight: "300px" }}
+        >
           React
-        </Fab>
-        <Fab variant="extended" size="medium" color="primary" aria-label="add">
-          CSS
         </Fab>
         <Box sx={{ "& > :not(style)": { m: 1 } }}></Box>
       </ListItem>
@@ -38,10 +40,13 @@ export default function Experiences() {
             </Typography>
           }
         />
-        <Fab variant="extended" size="medium" color="primary" aria-label="add">
-          React
-        </Fab>
-        <Fab variant="extended" size="medium" color="primary" aria-label="add">
+        <Fab
+          variant="extended"
+          size="medium"
+          color="primary"
+          aria-label="add"
+          style={{ marginRight: "300px" }}
+        >
           React
         </Fab>
       </ListItem>
@@ -59,10 +64,13 @@ export default function Experiences() {
             </Typography>
           }
         />
-        <Fab variant="extended" size="medium" color="primary" aria-label="add">
-          React
-        </Fab>
-        <Fab variant="extended" size="medium" color="primary" aria-label="add">
+        <Fab
+          variant="extended"
+          size="medium"
+          color="primary"
+          aria-label="add"
+          style={{ marginRight: "300px" }}
+        >
           React
         </Fab>
       </ListItem>

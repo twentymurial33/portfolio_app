@@ -34,7 +34,7 @@ export default function BasicList() {
 const Box = styled.div`
   background-color: #7d34eb;
   width: 30%;
-  margin-left: 260px;
+  margin-left: 300px;
   color: white;
   text-align: center;
 `;

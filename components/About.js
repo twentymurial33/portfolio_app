@@ -5,7 +5,7 @@ function About() {
     <AboutSection>
       <Text>
         <h2>ABOUT</h2>
-        A Front-end Developer with a background in Program Management.
+        Software Developer with a background in Program Management.
         <br /> I fell in love with coding after several years supporting
         engineers build products.
         <br /> Spent the last 2 years honing my skills by working on open source

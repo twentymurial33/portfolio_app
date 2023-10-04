@@ -14,8 +14,6 @@ function Layout() {
           src="/background.jpg"
           width={227.77}
           height={150}
-          left={50}
-          right={50}
           alt="Ain't Board Logo"
         />
 
