@@ -10,13 +10,6 @@ function Layout() {
   return (
     <div>
       <LayoutContainer>
-        <Image
-          src="/background.jpg"
-          width={227.77}
-          height={150}
-          alt="Ain't Board Logo"
-        />
-
         <Header />
         <About />
         <hr></hr>

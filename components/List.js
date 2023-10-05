@@ -11,18 +11,18 @@ export default function BasicList() {
     <Box sx={{}}>
       <nav aria-label="main mailbox folders">
         <List>
-          {/* <p style={{ color: "black", textAlign: "center" }}>Projects</p> */}
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon></ListItemIcon>
               <ListItemText primary="Murials Menu" />
-              <a href="https://github.com/twentymurial33"></a>
+              <a href="https://murialsmenu.netlify.app"></a>
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
             <ListItemButton>
               <ListItemIcon></ListItemIcon>
               <ListItemText primary="Aint Board" />
+              <a href="https://github.com/idiglove/oku-no-kumo-fe"></a>
             </ListItemButton>
           </ListItem>
         </List>
