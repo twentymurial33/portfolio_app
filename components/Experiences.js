@@ -15,7 +15,7 @@ export default function Experiences() {
             </Typography>
           }
         />
-        <Fab
+        {/* <Fab
           variant="extended"
           size="medium"
           color="primary"
@@ -23,7 +23,7 @@ export default function Experiences() {
           style={{ marginRight: "300px" }}
         >
           React
-        </Fab>
+        </Fab> */}
         <Box sx={{ "& > :not(style)": { m: 1 } }}></Box>
       </ListItem>
 
@@ -36,21 +36,11 @@ export default function Experiences() {
               variant="body2"
               color="text.primary"
             >
-              MARCH 2020-FEB 2022 | Junior Front-End Developer
+              MARCH 2020-FEB 2022 | Front-End Developer
             </Typography>
           }
         />
-        <Fab
-          variant="extended"
-          size="medium"
-          color="primary"
-          aria-label="add"
-          style={{ marginRight: "300px" }}
-        >
-          React
-        </Fab>
       </ListItem>
-
       <ListItem alignItems="flex-start">
         <ListItemText
           secondary={
@@ -64,15 +54,6 @@ export default function Experiences() {
             </Typography>
           }
         />
-        <Fab
-          variant="extended"
-          size="medium"
-          color="primary"
-          aria-label="add"
-          style={{ marginRight: "300px" }}
-        >
-          React
-        </Fab>
       </ListItem>
     </List>
   );

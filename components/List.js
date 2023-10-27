@@ -1,40 +1,61 @@
-//import Box from "@mui/material/Box";
 import styled from "styled-components";
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
+import Link from "@mui/material/Link";
+import Image from "next/image";
+import Fab from "@mui/material/Fab";
+import Button from "@mui/material/Button";
 
 export default function BasicList() {
   return (
     <Box sx={{}}>
-      <nav aria-label="main mailbox folders">
-        <List>
-          <ListItem disablePadding>
-            <ListItemButton>
-              <ListItemIcon></ListItemIcon>
-              <ListItemText primary="Murials Menu" />
-              <a href="https://murialsmenu.netlify.app"></a>
-            </ListItemButton>
-          </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton>
-              <ListItemIcon></ListItemIcon>
-              <ListItemText primary="Aint Board" />
-              <a href="https://github.com/idiglove/oku-no-kumo-fe"></a>
-            </ListItemButton>
-          </ListItem>
-        </List>
-      </nav>
+      <List>
+        <Image />
+        <Button>
+          <Fab
+            variant="extended"
+            size="medium"
+            color="primary"
+            aria-label="add"
+            style={{ marginRight: "300px" }}
+          >
+            <Link>
+              <a
+                href="https://murialsmenu.netlify.app"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Murials Menu
+              </a>
+            </Link>
+          </Fab>
+        </Button>
+        <Button>
+          <Fab
+            variant="extended"
+            size="medium"
+            color="primary"
+            aria-label="add"
+            style={{ marginRight: "300px" }}
+          >
+            <Link>
+              <a
+                href="https://github.com/idiglove/oku-no-kumo-fe"
+                style={{ color: "white", textDecoration: "none" }}
+              >
+                Aint board
+              </a>
+            </Link>
+          </Fab>
+        </Button>
+      </List>
     </Box>
   );
 }
 
 const Box = styled.div`
   background-color: #7d34eb;
-  width: 30%;
+  width: 10%;
   margin-left: 300px;
   color: white;
   text-align: center;
+  display: flex;
 `;

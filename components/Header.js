@@ -7,8 +7,7 @@ function Header() {
       <h1>
         <a href="/home">Murial Anindo</a>
       </h1>
-      <h2>Software Developer</h2>
-
+      <h2>Software Engineer</h2>
       <nav>
         <BasicList />
       </nav>

@@ -1,5 +1,6 @@
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Link from "@mui/material/Link";
 import styled from "styled-components";
 
 function Footer() {
@@ -7,10 +8,14 @@ function Footer() {
     <>
       <BottomNavigation>
         <LinkedInIcon>
-          <a href="/https://www.linkedin.com/in/murial-anindo/" />
+          <Link>
+            <a href="/https://www.linkedin.com/in/murial-anindo/" />
+          </Link>
         </LinkedInIcon>
         <GitHubIcon>
-          <a href="/https://github.com/twentymurial33" />
+          <Link>
+            <a href="/https://github.com/twentymurial33" />
+          </Link>
         </GitHubIcon>
       </BottomNavigation>
     </>

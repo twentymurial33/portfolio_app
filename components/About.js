@@ -5,7 +5,7 @@ function About() {
     <AboutSection>
       <Text>
         <h2>ABOUT</h2>
-        Software Developer with a background in Program Management.
+        Software Engineer with a background in Program Management.
         <br /> I fell in love with coding after several years supporting
         engineers build products.
         <br /> Spent the last 2 years honing my skills by working on open source
@@ -18,7 +18,7 @@ function About() {
 
 const Text = styled.p`
   font-size: 20px;
-  color: #a632a8;
+  color: white;
   text-align: center;
   font-family: Quicksand;
 `;
