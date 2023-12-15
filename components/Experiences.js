@@ -1,5 +1,5 @@
 import ListItem from "@mui/material/ListItem";
-import ListItemText from "@mui/material/ListItemText";
+//import ListItemText from "@mui/material/ListItemText";
 import styled from "styled-components";
 import Box from "@mui/material/Box";
 import Fab from "@mui/material/Fab";
@@ -8,7 +8,7 @@ export default function Experiences() {
   return (
     <List sx={{ maxWidth: 440 }}>
       <ListItem alignItems="flex-start">
-        <ListItemText
+        <div
           secondary={
             <Typography sx={{ display: "inline" }}>
               JAN 2022 - PRESENT | Senior Program Manager
@@ -28,7 +28,7 @@ export default function Experiences() {
       </ListItem>
 
       <ListItem alignItems="flex-start">
-        <ListItemText
+        <div
           secondary={
             <Typography
               sx={{ display: "inline" }}
@@ -42,7 +42,7 @@ export default function Experiences() {
         />
       </ListItem>
       <ListItem alignItems="flex-start">
-        <ListItemText
+        <div
           secondary={
             <Typography
               sx={{ display: "inline" }}

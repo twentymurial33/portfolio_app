@@ -4,7 +4,6 @@ function About() {
   return (
     <AboutSection>
       <Text>
-        <h2>ABOUT</h2>
         Software Engineer with a background in Program Management.
         <br /> I fell in love with coding after several years supporting
         engineers build products.
