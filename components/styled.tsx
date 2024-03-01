@@ -22,7 +22,6 @@ export const HeaderBar = styled.div`
   p {
     max-width: 20rem;
     line-height: 1.5;
-    /* display: block; */
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -36,5 +35,5 @@ export const LayoutContainer = styled.div`
   margin: 0;
   padding: 0;
   background-color: rgb(15 23 42);
-  height: 100%;
+  height:700px;
 `;

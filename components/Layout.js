@@ -3,7 +3,7 @@ import Header from "./Header";
 import Experiences from "./Experiences";
 import About from "./About";
 import Footer from "./Footer";
-import Image from "next/image";
+
 import { LayoutContainer } from "./styled";
 
 function Layout() {

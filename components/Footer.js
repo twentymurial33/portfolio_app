@@ -1,5 +1,7 @@
+import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import styled from "styled-components";
 
@@ -7,16 +9,32 @@ function Footer() {
   return (
     <>
       <BottomNavigation>
-        <LinkedInIcon>
-          <Link>
-            <a href="/https://www.linkedin.com/in/murial-anindo/" />
-          </Link>
-        </LinkedInIcon>
-        <GitHubIcon>
-          <Link>
-            <a href="/https://github.com/twentymurial33" />
-          </Link>
-        </GitHubIcon>
+        <Button>
+          <LinkedInIcon>
+            <Link>
+              <a
+                href="https://www.linkedin.com/in/murial-anindo/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </Link>
+          </LinkedInIcon>
+        </Button>
+        <Button>
+          <GitHubIcon>
+            <Link>
+              <a
+                href="https://github.com/twentymurial33"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </Link>
+          </GitHubIcon>
+        </Button>
       </BottomNavigation>
     </>
   );
